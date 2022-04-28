@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Réserver votre séjour</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <h2>Réserver votre séjour</h2>
+      <div><span id="nightPrice">46</span> € / nuit</div>
+
+      <label for="">Date d'arrivée</label>
+      <input type="date" id="start_date" required /> <br />
+      <label for="">Date de départ</label>
+      <input type="date" id="end_date" required /><br />
+
+      <button class="btn btn cyan accent-3">Valider ma réservation</button>
+      <h2>Total : <span id="total"></span> €</h2>
+    </div>
+
+    <script src="/index.js"></script>
+  </body>
+</html>
